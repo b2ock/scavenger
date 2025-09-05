@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Take a Picture App</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    Hello World
+  <div class="container">
+    <p class="prompt">Take a picture of <span id="dynamic-text">something</span></p>
+    
+    <!-- Upload button -->
+    <label class="upload-button">
+      +
+      <input type="file" id="image-upload" accept="image/*">
+    </label>
+
+    <!-- Preview uploaded image -->
+    <div id="preview"></div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
