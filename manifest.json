@@ -8,17 +8,17 @@
     "orientation": "portrait",
     "icons": [
         {
-            "src": "/images/app_image_1080.png",
+            "src": "/scavenger/images/app_image_1080.png",
             "type": "image/png",
             "sizes": "1080x1080"
         },
         {
-            "src": "/images/app_image_96",
+            "src": "/scavenger/images/app_image_96",
             "type": "image/png",
             "sizes": "96x96"
         },
         {
-            "src": "/images/app_image_128.png",
+            "src": "/scavenger/images/app_image_128.png",
             "type": "image/png",
             "sizes": "128x128"
         },
@@ -33,12 +33,12 @@
             "sizes": "384x384"
         },
         {
-            "src": "/images/app_image_72.png",
+            "src": "/scavenger/images/app_image_72.png",
             "type": "image/png",
             "sizes": "72x72"
         },
         {
-            "src": "/images/app_image_512.png",
+            "src": "/scavenger/images/app_image_512.png",
             "type": "image/png",
             "sizes": "512x512"
         }
